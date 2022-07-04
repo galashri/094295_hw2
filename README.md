@@ -12,3 +12,8 @@ There are some folders and .tar files:
 - "manual clean" folder - the manual cleaned data split to train and val as the origin data set order.
 - "data" folder - our augmented data holding train and val folders - each label in the train folder has 800 samples and each label in the val folder has 200 samples,   there for each label has 1000 samlpes and overall 10000 samples.
 - "Roman_Numerals_cDCGAN_results" folder - holds the results of the conditional deep convolutional GAN results we tried to train on the origin data.
+
+
+We attached the cDCGAN train code to reproduce the training of the model.
+
+We attached the Augments pipeline to reproduce the final data. To run this jupyter make sure the manual clean data exist in the file folder.
